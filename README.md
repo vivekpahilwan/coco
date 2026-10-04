@@ -107,3 +107,7 @@ Art/                     Original artwork the frames and icon are made from
 ### How the animation works
 
 Coco's frames are separate poses rather than full in-between frames. To make the motion feel smooth, the app renders at 60 fps with Core Animation, crossfades between poses, and adds procedural motion on top: breathing, squash and stretch, hops with gravity, a walking bob, a typing tap, and leaning while dragged.
+
+## License
+
+Coco is released under the [MIT License](LICENSE).
