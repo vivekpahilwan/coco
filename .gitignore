@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Build output (Scripts/build-app.sh, Xcode)
+/build/
+/.build/
+/Coco.app/
+DerivedData/
+
+# Personal Xcode state
+xcuserdata/
+*.xcuserstate
+
+# Python
+__pycache__/
+*.pyc

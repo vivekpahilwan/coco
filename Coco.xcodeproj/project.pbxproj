@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB299C3E7CFE2AC46BC7E083 /* CocoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BCA98B46CE2649D81BAAFBE /* CocoApp.swift */; };
+		E7BC07C869AC7B163988899B /* PetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247771591CA0C7403B9BF6E5 /* PetController.swift */; };
+		77ACF86020B775A8D69DFBC9 /* SpriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357674251CA6FE22D821D517 /* SpriteView.swift */; };
+		92C20478DE0B61E052106C73 /* Coco.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F1CD52804AB2C3A05DC5E1 /* Coco.xcassets */; };
+		01B88CE2B3F25D89FAC3A97A /* Frames in Resources */ = {isa = PBXBuildFile; fileRef = DCDC1AC079A91D513A5A759B /* Frames */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D2A57DC1D883FD21FB995169 /* Coco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCA98B46CE2649D81BAAFBE /* CocoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoApp.swift; sourceTree = "<group>"; };
+		247771591CA0C7403B9BF6E5 /* PetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetController.swift; sourceTree = "<group>"; };
+		357674251CA6FE22D821D517 /* SpriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteView.swift; sourceTree = "<group>"; };
+		35F1CD52804AB2C3A05DC5E1 /* Coco.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Coco.xcassets; sourceTree = "<group>"; };
+		DCDC1AC079A91D513A5A759B /* Frames */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Frames; sourceTree = "<group>"; };
+		707A1B8AA6F495C9BF6658C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3905D7917F2B3429490B01CF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAF6AA633395B1B76148E35B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B731CEFC6751AAE0EC69B98 = {
+			isa = PBXGroup;
+			children = (
+				D8DBA3F9900DD17689CA0C4D /* Coco */,
+				210B20EF175C51B8421CAAF5 /* Assets */,
+				707A1B8AA6F495C9BF6658C2 /* Info.plist */,
+				3905D7917F2B3429490B01CF /* README.md */,
+				86024CAD1E83101D97359D73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86024CAD1E83101D97359D73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2A57DC1D883FD21FB995169 /* Coco.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8DBA3F9900DD17689CA0C4D /* Coco */ = {
+			isa = PBXGroup;
+			children = (
+				8BCA98B46CE2649D81BAAFBE /* CocoApp.swift */,
+				247771591CA0C7403B9BF6E5 /* PetController.swift */,
+				357674251CA6FE22D821D517 /* SpriteView.swift */,
+			);
+			name = Coco;
+			path = Sources/CocoDesktopPet;
+			sourceTree = "<group>";
+		};
+		210B20EF175C51B8421CAAF5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				35F1CD52804AB2C3A05DC5E1 /* Coco.xcassets */,
+				DCDC1AC079A91D513A5A759B /* Frames */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AEFBAE01D2DFD981F7DA7D /* Coco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD5B959833E219C36151D647 /* Build configuration list for PBXNativeTarget "Coco" */;
+			buildPhases = (
+				0F78FE532035D122ED352DBA /* Sources */,
+				DAF6AA633395B1B76148E35B /* Frameworks */,
+				943E4BBD9B51C81965501BA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coco;
+			productName = Coco;
+			productReference = D2A57DC1D883FD21FB995169 /* Coco.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F86FAA6BBF9AC94A7E4595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					42AEFBAE01D2DFD981F7DA7D = {
+						CreatedOnToolsVersion = 27.0;
+					};
+				};
+			};
+			buildConfigurationList = 2CA666E9AB7FD185F98B8152 /* Build configuration list for PBXProject "Coco" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B731CEFC6751AAE0EC69B98;
+			productRefGroup = 86024CAD1E83101D97359D73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AEFBAE01D2DFD981F7DA7D /* Coco */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		943E4BBD9B51C81965501BA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92C20478DE0B61E052106C73 /* Coco.xcassets in Resources */,
+				01B88CE2B3F25D89FAC3A97A /* Frames in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F78FE532035D122ED352DBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB299C3E7CFE2AC46BC7E083 /* CocoApp.swift in Sources */,
+				E7BC07C869AC7B163988899B /* PetController.swift in Sources */,
+				77ACF86020B775A8D69DFBC9 /* SpriteView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2D53B50AE2273FABAAF8B8FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4B2141B77146EF47E948847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FA7C752E798F561D7D156D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vivekpahilwan.coco-desktop-pet";
+				PRODUCT_NAME = Coco;
+			};
+			name = Debug;
+		};
+		22F75101C717335ACF4089A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vivekpahilwan.coco-desktop-pet";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				PRODUCT_NAME = Coco;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CA666E9AB7FD185F98B8152 /* Build configuration list for PBXProject "Coco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D53B50AE2273FABAAF8B8FA /* Debug */,
+				D4B2141B77146EF47E948847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD5B959833E219C36151D647 /* Build configuration list for PBXNativeTarget "Coco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7C752E798F561D7D156D98 /* Debug */,
+				22F75101C717335ACF4089A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F86FAA6BBF9AC94A7E4595 /* Project object */;
+}
